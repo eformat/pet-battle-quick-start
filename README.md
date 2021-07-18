@@ -5,7 +5,7 @@ As a cluster-admin load the getting started into your cluster
 oc apply -f pet-battle-helm.yaml
 ```
 
-The quick start is now available under the *? -> Quick Start* menu:
+The quick start is now available under the *? -> Quick Starts* menu:
 
 ![pb-quick-start.png](images/pb-quick-start.png)
 
