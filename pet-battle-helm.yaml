@@ -59,7 +59,7 @@ spec:
          sed -i -e "s|labs-test|petbattle|" values.yaml
          HOST=$(oc get ingress.config/cluster -o 'jsonpath={.spec.domain}')
          sed -i -e "s|apps.hivec.sandbox1405.opentlc.com|$HOST|" values.yaml
-         sed -i -e "s|localhost:4200/tournament|pet-battle-petbattle-$HOST/*|" values.yaml
+         sed -i -e "s|http://localhost:4200/tournament|https://pet-battle-petbattle-$HOST/*|" values.yaml
          cat values.yaml
         ```{{execute}}
 
