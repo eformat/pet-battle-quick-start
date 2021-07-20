@@ -84,7 +84,7 @@ spec:
 
         1. We can check that all helm charts were deployed ok.`helm list --namespace petbattle`{{execute}}
 
-        1. Change to the **Developer** perspective. Brwose to **Topology** where you should see the Pet Battle Apps running.
+        1. Change to the **Developer** perspective. Browse to **Topology** where you should see the Pet Battle Apps running.
            
            Find the **pet-battle** Web App and select the **Route - Open URL** symbol to open the Pet Battle Web Page. 
 
